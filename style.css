@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+/* = Basic */
+img {
+  padding: 2px;
+  float: left;
+  clear: both;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  float: left;
+  clear: both;
+}
+
+.size {
+  width: 350;
+  height: 300px;
+}
+
+/* = Filter */
+.blur {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.contrast {
+  -webkit-filter: contrast(200%);
+  filter: contrast(200%);
+}
+.brightness {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+.invert {
+  -webkit-filter: invert();
+  filter: invert();  
+}
+.saturation {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
+}
+.sepia {
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+.hue {
+  -webkit-filter: hue-rotate(120deg);
+  filter: hue-rotate(120deg);
+}
